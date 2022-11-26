@@ -18,7 +18,7 @@ type ListTickersParams struct {
 
 	// Specify the primary exchange of the asset in the ISO code format. Find more information about the ISO codes at
 	// the ISO org website. Defaults to empty string which queries all exchanges.
-	Exchange *int `query:"exchange"`
+	Exchange *string `query:"exchange"`
 
 	// Specify the CUSIP code of the asset you want to search for. Find more information about CUSIP codes at their
 	// website. Defaults to empty string which queries all CUSIPs.
